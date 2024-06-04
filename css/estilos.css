@@ -18,20 +18,13 @@
     padding: 40px;
     box-shadow: 0 0 20px 1px rgb(243, 240, 240);
     position: relative;
-    background: black;
-    box-shadow: 7px 13px 40px  #4a1bf7;
-  }
-  
-  .imgLogo {
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    background: black;
-    /*border: 1px solid rgba(109, 86, 10, 0.7);*/
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 81, 255, 0.5);
+    background-color: rgba(51, 88, 253, 0.1);
   }
   
   .formulario__titulo,
@@ -42,10 +35,10 @@
   }
   .formulario__titulo,
   .formulario__subtitulo {
-    color:  #2903b4;
+    color: #f8f7f7;
   }
   .formulario__parrafo {
-    color:   #2903b4;
+    color:  #fdfcfc;
   }
   .formulario__input,
   .formulario__label {
@@ -61,7 +54,7 @@
     padding: 13px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #0c0c0c;
+    border: 1px solid #fcfafa;
     font-family: 'calibri';
     font-size: 18px;
     padding-left: auto;
@@ -80,13 +73,13 @@
     /*position: absolute;*/
     /*margin-top: -78px;*/
     /*z-index: -20;*/
-    color:    #2903b4;
+    color:   #fdfcfc;
     /*transition: all 0.2s;*/
     margin: 0;
     font-size: 14px;
   }
   .formulario__submit {
-    background:    #2903b4;
+    background:   #010649;
     color: rgb(250, 250, 250);
     padding: 30px 20px;
     cursor: pointer;
@@ -100,8 +93,8 @@
     transition: 0.2s;
   }
   .formulario__submit:hover{
-    background:   #0f0142;
-    box-shadow: 0 0 10px    #714bf8, 0 0 40px    #714bf8,0 0 80px     #714bf8;
+    background:   #727bfc;
+    box-shadow: 0 0 10px     #727bfc, 0 0 40px     #727bfc,0 0 80px      #727bfc;
   }
   
   /*Centrar los campos del formulario (Los input y el boton de Enviar al WhatsApp, que tambien es un input)*/
