@@ -26,16 +26,16 @@
       <label for="nombre" class="formulario__label"><strong>NOMBRE*</strong><label>
       <input id="cliente" type="text"  class="formulario__input" required=""/>
       
-      <label for="cedula" class="formulario__label"><strong>CEDULA*</strong></label>
+      <label for="cedula" class="formulario__label"><strong>CÉDULA*</strong></label>
       <input id="cedula" type="text" class="formulario__input" required="" placeholder="" maxlength="10"/>
 
       <label for="fn" class="formulario__label"><strong>FECHA DE NACIMIENTO*</strong></label>
       <input id="fn" type="date" class="formulario__input" required="" placeholder="" maxlength="10"/>
 
-      <label for="fe" class="formulario__label"><strong>FECHA DE EXPEDICION*</strong></label>
+      <label for="fe" class="formulario__label"><strong>FECHA DE EXPEDICIÓN*</strong></label>
       <input id="fe" type="date" class="formulario__input" required="" placeholder="" maxlength="10"/>
 
-      <label for="ce" class="formulario__label"><strong>CIUDAD DE EXPEDICION*</strong></label>
+      <label for="ce" class="formulario__label"><strong>CIUDAD DE EXPEDICIÓN*</strong></label>
       <input id="ce" type="text" class="formulario__input" required="" placeholder="" maxlength="10"/>
 
       
@@ -141,39 +141,43 @@
       <label for="servicio" class="formulario__label"><strong>SERVICIO*</strong></label>
       <select id="servicio" name="departamento" class="formulario__input" required="">
          
-        <!--estrtato 5y6-->
+        <!--estrato 5y6-->
         <option value=""></option>
-        <option disabled value="etrato 5y6" style="background-color: white; color: blue; text-align: center;"><strong>🏨ESTRATO 5️⃣ y 6️⃣🏨</strong></option>
+
+        <optgroup label="🏨ESTRATO 5️⃣ y 6️⃣🏨">
         <option value="triple 500 mg">🔵TRIPLE 500 MG</option>
         <option value="triple 700 mg">🔵TRIPLE 700 MG</option>
+      </optgroup>
         
         <!--estrato del 1 al 3-->
-        <option disabled value="etrato 1 al 3" style="background-color: white; color: blue; text-align: center;"><strong>🏨ESTRATO 1️⃣ AL 3️⃣🏨</strong></option>
+        <optgroup label="🏨ESTRATO 1️⃣ AL 3️⃣🏨">
         <option value="internet 200 mg">🔵INTERNET 200 MG</option>
         <option value="internet 500 mg">🔵INTERNET 500 MG</option> 
         <option value="internet 910 mg">🔵INTERNET 910 MG</option> 
-        <option value="internet y telefonia 500 mg">🔵INTERNET Y TELEFONIA 500 MG</option> 
-        <option value="internet y telefonia 700 mg">🔵INTERNET Y TELEFONIA 700 MG</option> 
+        <option value="internet y telefonía 500 mg">🔵INTERNET Y TELEFONÍA 500 MG</option> 
+        <option value="internet y telefonía 700 mg">🔵INTERNET Y TELEFONÍA 700 MG</option> 
         <option value="internet y tv 200 mg">🔵INTERNET Y TV 200 MG</option> 
         <option value="internet y tv 500 mg">🔵INTERNET Y TV 500 MG</option> 
+      </optgroup>
        
         
         <!--estrato de 4 al 6-->
-        <option disabled value="etrato 1 al 3" style="background-color: white; color: blue; text-align: center;"><strong>🏨ESTRATO 4️⃣ AL 6️⃣🏨</strong></option>
+        <optgroup label="🏨ESTRATO 4️⃣ AL 6️⃣🏨">
         <option value="internet 200 mg">🔵INTERNET 200 MG</option>
         <option value="internet 500 mg">🔵INTERNET 500 MG</option>
         <option value="internet 910 mg">🔵INTERNET 910 MG</option>
         <option value="internet y tv 200 mg">🔵INTERNET Y TV 200</option>
         <option value="internet y tv 500 mg">🔵INTERNET Y TV 500 MG</option>
-        <option value="internet y telefonia 500 mg">🔵INTERNET Y TELEFONIA 500 MG</option> 
-        <option value="internet y telefonia 700 mg">🔵INETERNET Y TELEFONIA 700 MG</option> 
-        <option value="internet y telefonia 910 mg">🔵INTERNET Y TELEFONIA 910 MG</option> 
-        <option value=""></option>
+        <option value="internet y telefonía 500 mg">🔵INTERNET Y TELEFONÍA 500 MG</option> 
+        <option value="internet y telefonía 700 mg">🔵INTERNET Y TELEFONÍA 700 MG</option> 
+        <option value="internet y telefonía 910 mg">🔵INTERNET Y TELEFONÍA 910 MG</option> 
+      </optgroup>
          
         <!--GAMER-->
-        <option disabled value="gamer" style="background-color: white; color: blue; text-align: center;"><strong>🎮GAMER🎮</strong></option>
+        <optgroup label="🎮GAMER🎮">
         <option value="internet 700 mg">🔵INTERNET 700 MG</option>
         <option value="internet 700 mg">🔵INTERNET 700 MG</option>
+      </optgroup>
      
     </select>
       
